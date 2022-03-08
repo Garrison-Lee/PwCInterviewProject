@@ -6,7 +6,7 @@
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
-/[Bb]uilds/
+#/[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
@@ -52,8 +52,6 @@ ExportedObj/
 sysinfo.txt
 
 # Builds. CHANGED: I do want the builds on the GitHub so they can try them out
-#*.apk
-#*.unitypackage
 
 # Crashlytics generated file
 crashlytics-build.properties

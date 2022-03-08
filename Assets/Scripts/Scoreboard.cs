@@ -87,7 +87,7 @@ public class Scoreboard : MonoBehaviour
         }
 
         string minString = minutes > 9 ? minutes.ToString() : "0" + minutes.ToString();
-        string secString = seconds > 9 ? seconds.ToString() : "0" + minutes.ToString();
+        string secString = seconds > 9 ? seconds.ToString() : "0" + seconds.ToString();
 
         time.text = minString + ":" + secString;
     }
